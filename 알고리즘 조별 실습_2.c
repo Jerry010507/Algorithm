@@ -23,6 +23,6 @@ int main(void)
 	scanf_s("%d", &key);
 	for (i = 0; i < size; i++)
 		if (data[i] == key) 
-			printf("찾은 수의 위치 : %d\n", i);
+			printf("찾은 수의 위치 : %d\n", i + 1);
 	return 0;
 }
